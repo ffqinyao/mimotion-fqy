@@ -66,7 +66,7 @@ def login(_user, password):
     }
     r2 = requests.post(url2, data=data2, headers=_headers).json()
     login_token = r2["token_info"]["login_token"]
-    # print("login_token获取成功！")
+    # print("login_token获取成功！！")
     # print(login_token)
     userid = r2["token_info"]["user_id"]
     # print("userid获取成功！")
