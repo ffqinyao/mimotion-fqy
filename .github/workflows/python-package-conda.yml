@@ -26,4 +26,3 @@ jobs:
         pwd: ${{ secrets.PWD }}
         step: ${{ secrets.STEP }}
       run: python main.py
-1
